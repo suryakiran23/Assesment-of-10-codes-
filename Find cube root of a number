@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include<math.h>
+
+int main()
+{
+   float a, cube;
+   
+   printf("enter the value of a :");
+   scanf("%f",&a);
+  
+   
+   cube=cbrt(a);
+   
+   printf("square of the number : %f", cube);
+   
+   return 0;
+}
